@@ -1,0 +1,16 @@
+{
+  "name": "APHunt/EncryptedFields",
+  "description": "A prototype for encrypted fields in Doctrinet",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "doctrine/orm": "^2.6",
+    "paragonie/halite": "4"
+  },
+  "autoload": {
+    "psr-4": {
+      "APHunt\\EncryptedFields\\": "src/"
+    }
+  }
+}
